@@ -1,0 +1,72 @@
+.container-1{
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+}
+
+.flex-box-container-1,.flex-box-rps{
+    display:flex;
+    padding: 10px;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.flex-box-container-1 div,.flex-box-container-1 button{
+    display: flex;
+    align-items:center ;
+    padding: 10px; 
+}
+
+.flex-box-container-1 img{
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.7);
+    margin: 10px;
+}
+
+.flex-box-rps img:hover{
+    box-shadow: 0px 10px 50px rgba(37, 50, 233, 1);
+}
+
+.flex-bj-row-1,.flex-bj-row-2,.flex-bj-row-3{
+    display:flex;
+    padding: 10px;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.flex-bj-row-1,.flex-bj-row-2{
+    background: url("background.png");
+    color: #ffffff;
+}
+
+.flex-bj-row-1 div{
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    height: 350px;
+    text-align: center;
+    width: 50%; 
+}
+
+.flex-bj-row-1 img{
+    width: 25%;
+    padding: 10px;
+}
+.flex-bj-row-2 button{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.flex-bj-row-2 div{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+table th,td{
+    padding: 5px;
+    border: 1px solid black;
+}
